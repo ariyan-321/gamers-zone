@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.li{
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}  
+.li i:nth-child(1){
+    color: red;
+}
+.li i:nth-child(2){
+    color: blck;
+}
+.header-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-left h2{
+ font-size: 2rem;
+}
+.header-left h1{
+    font-size: 3rem;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+   background-clip: text;
+   color: transparent;
+   padding: 10px 0;
+   
+}
+
+.header-left ul li{
+    list-style: none;
+    padding: 4px;
+}
+.header-left ul li i{
+    cursor: pointer;
+}
+
+.btn-1{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    margin: 10px 20px 0 0;
+
+}
+
+.btn-2{
+    background: rgb(78, 197, 247);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+   color: white;
+   margin: 10px 20px 0 0;
+
+}
+
+
+
+.header-right img {
+  width: 100%;
+}
+
+.header-right{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
